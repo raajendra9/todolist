@@ -27,3 +27,6 @@ urlpatterns = [
         path('admin/', admin.site.urls),         
         path('api/', include(router.urls))                
             ]
+admin.site.site_header = "ToDo Admin"
+admin.site.site_title = "ToDo Admin Portal"
+admin.site.index_title = "Welcome to ToDo Portal "
